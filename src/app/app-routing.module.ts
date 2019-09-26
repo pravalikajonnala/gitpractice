@@ -4,12 +4,14 @@ import { CustomersComponent } from './customers/customers.component';
 import { OrdersComponent } from './orders/orders.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CustomerOrdersComponent } from './customer-orders/customer-orders.component';
+import { PravalikaComponent } from './pravalika/pravalika.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'/orders',pathMatch:"full"},
   {path:'customers',component:CustomersComponent},
    {path:'orders/:id/:item',component:CustomerOrdersComponent},
   {path:'orders',component:OrdersComponent},
+  {path: 'pravalika',component:PravalikaComponent},
  {path:"**", component:PageNotFoundComponent}
  
 ];
