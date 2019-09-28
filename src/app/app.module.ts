@@ -5,6 +5,7 @@ import { AppRoutingModule,routingcomponent } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PravalikaComponent } from './pravalika/pravalika.component';
 import { JonnalaComponent } from './jonnala/jonnala.component';
+import { Branch3Component } from './branch3/branch3.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { JonnalaComponent } from './jonnala/jonnala.component';
     routingcomponent,
     PravalikaComponent,
     JonnalaComponent,
+    Branch3Component,
     
   ],
   imports: [
