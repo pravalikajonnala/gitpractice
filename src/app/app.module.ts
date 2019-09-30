@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PravalikaComponent } from './pravalika/pravalika.component';
 import { JonnalaComponent } from './jonnala/jonnala.component';
 import { Branch3Component } from './branch3/branch3.component';
+import { Branch4Component } from './branch4/branch4.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { Branch3Component } from './branch3/branch3.component';
     PravalikaComponent,
     JonnalaComponent,
     Branch3Component,
+    Branch4Component,
     
   ],
   imports: [
